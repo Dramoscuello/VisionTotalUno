@@ -1,0 +1,348 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/*
+header{
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 900;
+}
+*/
+h1{
+    display: none;
+}
+.header{
+    background-color: #182DAA;
+    position: relative;
+}
+
+.contacto_header{
+    display: block;
+    height: 66px;
+    background-color: rgba(255, 255, 255,.3);
+    padding: 24px 10px;
+    text-align: center;
+    color: white;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    transition: .5s all ease;
+    font-weight: 500;
+}
+.contacto_header:hover{
+    text-decoration: none;
+    color: rgba(17, 11, 105,.6);
+    background-color: white;
+}
+.icon{
+    display: block;
+    height: 66px;
+    cursor: pointer;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding: 20px 0px;
+    transition: .5s all ease;
+}
+.icon:hover{
+    background: white;
+    color: rgba(17, 11, 105,.6);
+}
+.icon-xs{
+    display: block;
+    height: 66px;
+    cursor: pointer;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 20px 0px;
+    transition: .3s all ease;
+}
+.icon-xs:hover{
+    background: white;
+    color: rgba(17, 11, 105,.6);
+}
+.logo-xs{
+    text-align: center;
+}
+.nav_big ul{
+    list-style: none;
+    text-align: center;
+}
+.nav_big ul li a{
+    background-color: #31302B;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+}
+.nav_big ul li a:hover{
+    color: #182DAA;
+    text-decoration: none;
+}
+.nav_big > ul > li{
+    display: inline-block;
+    padding: 7px;
+}
+.nav_big ul li ul{
+    display: none;
+    z-index: 3;
+    position: absolute;
+}
+.nav_big ul li ul li{
+    border-bottom: 1px solid white;
+}
+.nav_big ul li ul li:last-child{
+    border-bottom: none;
+}
+.nav_big ul li:hover > ul{
+    display: block;
+}
+.nav{
+    background-color: #31302B;
+}
+
+.banner-front {
+    position: relative;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    top: 90px;
+    padding-bottom: 43.75%;
+    background-image: url(../images/OJOVISIONTOTAL2009.jpg);
+    background-size: cover;
+}
+.conocenos{
+    position: absolute;
+    width: 70%;
+    left: 25px;
+    line-height: 25px;
+    font-size: 1.8em;
+    top: 50%;
+    text-shadow: 1px 1px 2px black;
+}
+.boton_conocenos{
+    text-shadow: none;
+    margin-top: 2%;
+    font-size: 14px;
+    width: 100px;
+    padding: 5px;
+    display: block;
+    border: 2px solid black;
+    color: black;
+    transition: .3s all ease;
+}
+.boton_conocenos:hover{
+    background-color: rgba(147, 147, 147,.5);
+    text-decoration: none;
+    color: black;
+}
+
+.revista{
+    background-color: #4BB7BE;
+    margin: 0px;
+    padding: 30px 0px;
+    color: white;
+}
+.revista h2{
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 60px;
+}
+.img_revista{
+    width: 120px;
+    height: 180px;
+    float: right;
+    box-shadow: 0px 0px 5px black;
+    -webkit-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    transform: rotate(15deg);
+    transition: .5s all ease;
+}
+.img_revista:hover{
+    transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+}
+
+footer{
+    background-color: #31302B;
+    color: white;
+    padding: 30px 0;
+    border: none;
+    margin-top: 0;
+}
+.header_footer{
+    padding: 25px 0px;
+    color: white;
+}
+.logo_footer{
+    float: right;
+}
+.resena_footer{
+    font-size: 18px;
+    display: block;
+    margin-top: 25px;
+}
+
+
+.redes ul{
+    list-style: none;
+}
+.redes ul li{
+    display: inline-block;
+    
+}
+.redes ul li a{
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-image: url(../images/flat-social-media-icons-enfuzed.png);
+}
+.redes ul li a span{
+    display: none;
+}
+.facebook{
+    background-position: -18px -338px;
+}
+.facebook:hover{
+    background-position: -18px -16px;
+}
+.twitter{    
+    background-position: -78px -338px;
+}
+.twitter:hover{
+    background-position: -78px -16px;
+}
+.instagram{
+    background-position: -378px -338px;
+}
+.instagram:hover{
+    background-position: -378px -16px;
+}
+.goTop{
+    cursor: pointer;
+    font-size: 20px;
+}
+.menu{
+	list-style: none;
+	line-height: 42px;
+	margin: 2em auto;
+	/*outline: 1px solid red;*/
+	padding-left: 0;
+	width: 15em;
+}
+
+.menu a{
+	background: url(icons.png) no-repeat left top;
+	color: #ddd;
+	display: block;
+	padding-left: 3em;
+	text-decoration: none;
+	text-transform: uppercase;
+	--webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+	width: 100%;
+}
+
+.menu a:hover{
+	margin-left: 1em;
+}
+
+.menu li{
+	box-shadow: 3px 0 rgba(255,255,255,.2) inset;
+	margin-bottom: 5px;
+	padding-left: .9em;
+	/*outline: 1px solid green;*/
+	--webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+.menu li:hover{
+	box-shadow: 15em 0 rgba(255,255,255,.2) inset;
+}
+.nav_mov{
+	background: rgba(0,0,0,.8);
+	box-sizing: border-box;
+	left: -18em;
+	height: 100%;
+	padding-right: .25em;
+	padding-top: 3em;
+	position: fixed;
+    overflow: auto;
+	top: 0;
+	transition: all .3s;
+	z-index: 20;
+}
+
+.nav_mov.mostrar {
+	left: 0;
+}
+#mostrar-nav {
+	z-index: 30;
+}
+.quienes_hidden{
+    display: none;
+}
+.servicios_hidden{
+    display: none;
+}
+.pacientes_hidden{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .banner-front{
+        top: 65px;
+        background-image: url(../images/OJOVISIONTOTAL2009mov.jpg);
+        background-size: cover;
+    }
+    .logo_footer{
+        float: none;
+    }
+    .header_footer{
+        text-align: center;
+    }
+    .articles_footer{
+        border-bottom: 1px dotted white;
+    }
+    .articles_footer:last-child{
+        border-bottom: none;
+    }
+    .img_revista{
+        float: none;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .revista h2{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 320px){
+    .conocenos{
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 514px){
+    .conocenos{
+        top: 30%;
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 790px){
+    .boton_conocenos{
+        display: none;
+    }
+}
