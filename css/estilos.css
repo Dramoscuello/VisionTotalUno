@@ -3,6 +3,15 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+body{
+     background: #439FE0;
+    background-image: -webkit-linear-gradient(290deg, #4280c5 13%, #59f0ff 100%);
+    background-image: linear-gradient(160deg,#4280c5 13%,#59f0ff 100%);
+    background-image: -o-linear-gradient(290deg, #4280c5 13%, #59f0ff 100%);
+    background-image: -ms-linear-gradient(290deg, #4280c5 13%, #59f0ff 100%);
+    background-image: -moz-linear-gradient(290deg, #4280c5 13%, #59f0ff 100%);
+    color: #FFF;
+}
 /*
 header{
     top: 0;
@@ -12,11 +21,13 @@ header{
     z-index: 900;
 }
 */
+
 h1{
     display: none;
 }
+
 .header{
-    background-color: #182DAA;
+/*    background: #439FE0;*/
     position: relative;
 }
 
@@ -70,17 +81,19 @@ h1{
 }
 .nav_big ul{
     list-style: none;
-    text-align: center;
 }
 .nav_big ul li a{
-    background-color: #31302B;
+/*    background: #439FE0;*/
     color: white;
     padding: 10px 15px;
     display: block;
+    text-transform: uppercase;
 }
 .nav_big ul li a:hover{
-    color: #182DAA;
     text-decoration: none;
+}
+.nav ul li ul li a{
+    background: #439FE0;
 }
 .nav_big > ul > li{
     display: inline-block;
@@ -100,48 +113,19 @@ h1{
 .nav_big ul li:hover > ul{
     display: block;
 }
+/*
 .nav{
-    background-color: #31302B;
+    background: #439FE0;
 }
-
-.banner-front {
-    position: relative;
-    width: 100%;
-    height: 0;
-    overflow: hidden;
-    top: 90px;
-    padding-bottom: 43.75%;
-    background-image: url(../images/OJOVISIONTOTAL2009.jpg);
-    background-size: cover;
+*/
+/*
+#slide{
+    margin-top: 150px;
 }
-.conocenos{
-    position: absolute;
-    width: 70%;
-    left: 25px;
-    line-height: 25px;
-    font-size: 1.8em;
-    top: 50%;
-    text-shadow: 1px 1px 2px black;
-}
-.boton_conocenos{
-    text-shadow: none;
-    margin-top: 2%;
-    font-size: 14px;
-    width: 100px;
-    padding: 5px;
-    display: block;
-    border: 2px solid black;
-    color: black;
-    transition: .3s all ease;
-}
-.boton_conocenos:hover{
-    background-color: rgba(147, 147, 147,.5);
-    text-decoration: none;
-    color: black;
-}
+*/
 
 .revista{
-    background-color: #4BB7BE;
+/*    background-color: #0027B2;*/
     margin: 0px;
     padding: 30px 0px;
     color: white;
@@ -301,11 +285,6 @@ footer{
 }
 
 @media (max-width: 768px) {
-    .banner-front{
-        top: 65px;
-        background-image: url(../images/OJOVISIONTOTAL2009mov.jpg);
-        background-size: cover;
-    }
     .logo_footer{
         float: none;
     }
@@ -326,23 +305,8 @@ footer{
     .revista h2{
         margin-top: 10px;
     }
-}
-
-@media (max-width: 320px){
-    .conocenos{
-        font-size: 1.2em;
+    #slide{
+        margin-top: 80px;
     }
 }
 
-@media (max-width: 514px){
-    .conocenos{
-        top: 30%;
-        font-size: 1.6em;
-    }
-}
-
-@media (max-width: 790px){
-    .boton_conocenos{
-        display: none;
-    }
-}
