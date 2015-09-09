@@ -1,4 +1,16 @@
 $(document).ready(function(){   
+    
+    
+    var altura = $('.cabecera_small').offset().top;    
+    $(window).on('scroll', function(){
+        if($(window).scrollTop() > altura){
+            $('.cabecera_small').addClass('fixed');
+        }else{
+            $('.cabecera_small').removeClass('fixed');
+        }
+    });
+    
+    
     //scroll top
     $('.goTop').click(function(){
         $('body, html').animate({
