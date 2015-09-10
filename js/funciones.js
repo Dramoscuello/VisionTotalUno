@@ -30,10 +30,10 @@ $(document).ready(function(){
 	   $('.nav_mov').toggleClass('mostrar');
     });
     
-    function mostrarMenuQuienes(){
+    /*function mostrarMenuQuienes(){
 		var $menuQuienes = $('.quienes_hidden');	
 		$menuQuienes.slideToggle('fast');
-	}
+	}*/
     
     function mostrarMenuServicios(){
 		var $menuServicios = $('.servicios_hidden');	
@@ -43,7 +43,7 @@ $(document).ready(function(){
 		var $menuPacientes = $('.pacientes_hidden');	
 		$menuPacientes.slideToggle('fast');
 	}
-		$('.quienes_show').on('click', mostrarMenuQuienes);
+		/*$('.quienes_show').on('click', mostrarMenuQuienes);*/
         $('.servicios_show').on('click', mostrarMenuServicios);
         $('.pacientes_show').on('click', mostrarMenuPacientes);
     

@@ -19,3 +19,12 @@
 .acordeon{
     margin: 20px 0px;
 }
+
+@media (max-width: 768px) {
+    .titulo_quienes h2{
+       font-size: 20px;
+    }
+    .titulo_quienes h2 img{
+        display: none;
+    }
+}
