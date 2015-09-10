@@ -1,0 +1,19 @@
+.body_red{
+    margin: 30px 0px;
+}
+.titulo_red{
+    background-color: #08085F;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.body_red p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.imagenes_red{
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 5px black;
+}

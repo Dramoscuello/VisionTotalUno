@@ -1,0 +1,19 @@
+.body_objetivos{
+    margin: 30px 0px;
+}
+.titulo_objetivos{
+    background-color: #08085F;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.body_objetivos p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.imagenes_objetivos{
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 5px black;
+}

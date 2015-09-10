@@ -1,0 +1,18 @@
+.body_mision{
+    margin: 30px 0px;
+}
+.titulo_mision{
+    background-color: #08085F;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.body_mision p{
+    text-align: justify;
+}
+.imagenes_mision{
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 5px black;
+}

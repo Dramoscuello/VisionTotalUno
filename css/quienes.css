@@ -1,0 +1,21 @@
+.body_quienes_somos{
+    margin: 30px 0px;
+}
+.titulo_quienes{
+    background-color: #08085F;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.body_quienes_somos p{
+    text-align: justify;
+}
+.imagenes_quienes{
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 5px black;
+}
+.acordeon{
+    margin: 20px 0px;
+}
