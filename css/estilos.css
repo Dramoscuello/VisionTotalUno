@@ -142,6 +142,10 @@ background: linear-gradient(135deg,  rgba(8,8,95,1) 0%,rgba(30,87,153,1) 19%,rgb
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#08085f', endColorstr='#08085f',GradientType=1 );
 
 }
+#horarios:link{
+    text-decoration: none;
+    color: white;
+}
 
 .body{
     text-align: center;
