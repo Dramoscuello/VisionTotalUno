@@ -4,16 +4,12 @@
     font-family: 'Open Sans', sans-serif;
 }
 body{
-     background: #439FE0;
-    background-image: -webkit-linear-gradient(290deg, #4280c5 13%, #59f0ff 100%);
-    background-image: linear-gradient(160deg,#4280c5 13%,#59f0ff 100%);
-    background-image: -o-linear-gradient(290deg, #4280c5 13%, #59f0ff 100%);
-    background-image: -ms-linear-gradient(290deg, #4280c5 13%, #59f0ff 100%);
-    background-image: -moz-linear-gradient(290deg, #4280c5 13%, #59f0ff 100%);
-    color: #FFF;
+    background-image:url(../images/bg-footer.png);
+    background-repeat: repeat;
 }
 
 header{
+    background-color: #08085f;
     -webkit-transition: all ease .4s;
     transition: all ease .4s;
     -ms-transition: all ease .4s;
@@ -73,11 +69,14 @@ h1{
 .logo-xs{
     text-align: center;
 }
+.cont_nav_big{
+    -webkit-transition: .3s all ease;
+    transition: .3s all ease;
+}
 .nav_big ul{
     list-style: none;
 }
 .nav_big ul li a{
-/*    background: #439FE0;*/
     color: white;
     padding: 10px 15px;
     display: block;
@@ -87,7 +86,7 @@ h1{
     text-decoration: none;
 }
 .nav ul li ul li a{
-    background: #439FE0;
+    background: #08085f;
 }
 .nav_big > ul > li{
     display: inline-block;
@@ -107,15 +106,12 @@ h1{
 .nav_big ul li:hover > ul{
     display: block;
 }
-/*
-.nav{
-    background: #439FE0;
-}
-*/
+
 #slide{
     margin-top: 30px;
 }
 .botones_apartado{
+    background-color: #08085f;
     display: block;
     padding: 10px;
     border: 1px solid white;
@@ -129,27 +125,29 @@ h1{
     color: white;
     text-decoration: none;
 }
-#citas{
-/*    background-color: #6A4A3C;*/
-}
+
 .body{
     text-align: center;
     margin: 10px;
     padding: 20px 0px;
 }
+.body h3{
+    text-transform: uppercase;
+    font-weight: bold;
+}
 .button_body{
     text-align: center;
     
-    color: white;
+    color: black;
   
     margin: 5px 0px;
     padding: 8px;
-    border: 2px solid white;
+    border: 2px solid black;
 }
 .button_body:hover{
-    color: white;
+    color: black;
     text-decoration: none;
-    background: rgba(255, 255, 255,.3);
+    background: rgb(255, 255, 255);
 }
 .video_boton{
     width: 200px;
@@ -322,7 +320,7 @@ footer{
     top: 0;
     z-index: 1000;
     position: fixed;
-    background-color: #439FE0;
+    background-color: #08085f;
     right: 0;
     left: 0;
     box-shadow: 0px 2px 2px rgba(0,0,0,.5);
@@ -331,7 +329,19 @@ footer{
     -moz-box-shadow: 0px 2px 2px rgba(0,0,0,.5);
     -webkit-box-shadow: 0px 2px 2px rgba(0,0,0,.5);
 } 
-
+.fixednavbig{
+    top: 0;
+    z-index: 1000;
+    position: fixed;
+    background-color: #08085f;
+    right: 0;
+    left: 0;
+    box-shadow: 0px 2px 2px rgba(0,0,0,.5);
+    -o-box-shadow: 0px 2px 2px rgba(0,0,0,.5);
+    -ms-box-shadow: 0px 2px 2px rgba(0,0,0,.5);
+    -moz-box-shadow: 0px 2px 2px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0px 2px 2px rgba(0,0,0,.5);
+}
 @media (max-width: 768px) {
     .logo_footer{
         float: none;

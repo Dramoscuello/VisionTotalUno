@@ -10,6 +10,14 @@ $(document).ready(function(){
         }
     });
     
+    var alturanavbig = $('.cont_nav_big').offset().top;    
+    $(window).on('scroll', function(){
+        if($(window).scrollTop() > alturanavbig){
+            $('.cont_nav_big').addClass('fixednavbig');
+        }else{
+            $('.cont_nav_big').removeClass('fixednavbig');
+        }
+    });
     
     //scroll top
     $('.goTop').click(function(){
