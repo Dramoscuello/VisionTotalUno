@@ -1,0 +1,107 @@
+
+.body_sedes{
+	margin: 20px 0px;
+}
+.titulo_sedes{
+	background-color: #08085F;
+	color:white;
+}
+.titulo_sedes h2{
+	text-transform: uppercase;
+	text-align: center;
+}
+#sedeprincipal {
+	margin: 30px 0;
+}
+
+#map-canvasuno {
+	width: 100%;
+	height: 300px;
+}
+
+#sedeayudas {
+	margin: 30px 0;
+}
+
+
+#map-canvasdos {
+	width: 100%;
+	height: 300px;
+}
+
+/*galeria photoSwipe*/
+.my-gallery {
+  width: 100%;
+  float: left;
+}
+.my-gallery img {
+  width: 100%;
+  height: auto;
+}
+.my-gallery figure {
+  display: block;
+  float: left;
+  width: 100px;
+  height: 100px;
+    margin: 20px;
+}
+.my-gallery figcaption {
+  display: none;
+}
+/*galeria photoSwipe*/
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+	.titulo_sedes h2{
+		font-size: 20px;
+	}
+}
+@media (min-width: 768px) { 
+	#sedeprincipal {
+		position: relative;
+		height: 300px;
+	}
+
+	#map-canvasuno {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	#principal-info {
+		height: 300px;
+	}
+	#principal-info {
+	background-color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0.65);
+	}
+
+
+
+
+
+	#sedeayudas {
+		position: relative;
+		height: 300px;
+	}
+
+	#map-canvasdos {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	#ayudas-info {
+		height: 300px;
+	}
+	#ayudas-info {
+	background-color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0.65);
+	}
+}
